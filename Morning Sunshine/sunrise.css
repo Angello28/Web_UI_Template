@@ -1,0 +1,136 @@
+@font-face{
+    font-family:'DINPRO-BLACK';
+    font-weight: 400;
+    font-style:normal;
+    src:url(../../Kuliah/Merkava/Merkava/fonts/DINPRO-BLACK.OTF);
+}
+p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    background-image: url(129744.jpg);
+    background-size: 1380px 780px;
+}
+div.sidebar{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:120px;
+    min-height: auto;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(255,255,255,0.5);
+    float: left;
+}
+div.logo,div.logo2,div.logo3,div.logo4,div.logo5{
+    width: 60px;
+    height: 60px;
+}
+div.logo5{
+    width: 40px;
+    height: 40px;
+}
+div.logo{
+    margin-left: 30px;
+    margin-bottom: 425px;
+    background: url(logo.png) 0 0 no-repeat;
+}
+div.logo2,div.logo3,div.logo4{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.logo2{
+    background: url(logo.png) -60px 0 no-repeat;
+}
+.logo3{
+    background: url(logo.png) 0 -60px no-repeat;
+}
+.logo4{
+    background: url(logo.png) -60px -60px no-repeat;
+}
+.logo5{
+    background: url(logo2.png) no-repeat;
+    margin-top: 31px;
+    margin-left: 1030px;
+}
+.logo2:hover,.logo3:hover,.logo4:hover{
+    background-color: rgba(255,255,255,1);
+    border-radius: 50%;
+}
+.logo5:hover{
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 20%;
+}
+.row{
+    width:1160px;
+    float: left;
+    margin-left: 50px;
+}
+li,p{
+    list-style: none;
+    float: left;
+}
+p#bird{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 350px;
+    font-family: "DINPRO-BLACK";
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+li{
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: 100;
+    padding: 7px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+section.blockquote{
+    width:400px;
+    height: 200px;
+    margin-left: 190px;
+    margin-top: 130px;
+    float: left;
+    font-family: Arial;
+    color: white;
+    border-bottom: 3px solid orange; 
+}
+section p#judul{
+    font-size: 70px;
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 4px rgba(0,100,0,0.8);
+}
+section p#isi{
+    font-size: 20px;
+    color:white;
+    word-spacing: 3px;
+    text-shadow: 0 0 6px rgba(0,100,0,1);
+}
+.date{
+    float: left;
+    color: white;
+    font-family: Arial;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.date > p{
+    writing-mode: vertical-rl;
+    font-size: 20px;
+    text-shadow: 0 0 20px rgba(0,0,0);
+}
